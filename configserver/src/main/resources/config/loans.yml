@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to fincrest loans related local APIs"
+  contactDetails:
+    name: "Ava Rossi - Developer"
+    email: "ava@fincrest.com"
+  onCallSupport:
+    - (555) 882-7622
+    - (555) 992-7722

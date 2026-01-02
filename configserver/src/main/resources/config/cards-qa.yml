@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to fincrest cards related QA APIs"
+  contactDetails:
+    name: "Mateo García - QA Lead"
+    email: "mateo@fincrest.com"
+  onCallSupport:
+    - (666) 886-1099
+    - (666) 631-8873

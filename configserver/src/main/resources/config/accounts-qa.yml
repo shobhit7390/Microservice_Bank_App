@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to fincrest accounts related QA APIs"
+  contactDetails:
+    name: "Smitha Ray - QA Lead"
+    email: "smitha@fincrest.com"
+  onCallSupport:
+    - (666) 265-3787
+    - (666) 376-0938
