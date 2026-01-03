@@ -17,5 +17,8 @@ spring:
 #          search-locations: "file:///Users/shobhityadav/config"
 #          search-locations: "classpath:/config"
 
+encrypt:
+  key: "ebb2da96fe72a99e430c5042cec283fe"
+
 server:
   port: 8071
