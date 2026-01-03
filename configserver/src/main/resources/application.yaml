@@ -10,7 +10,7 @@ spring:
         git:
           uri: "https://github.com/shobhit7390/fincrest-config.git"
           default-label: "main"
-          timeout: 5
+          timeout: 10
           clone-on-start: true
           force-pull: true
 #        native:
