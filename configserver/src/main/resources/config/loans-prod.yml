@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to fincrest loans related prod APIs"
+  contactDetails:
+    name: "Nora Dubois - Product Owner"
+    email: "nora@fincrest.com"
+  onCallSupport:
+    - (777) 887-2290
+    - (777) 871-9091

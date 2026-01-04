@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to fincrest loans related QA APIs"
+  contactDetails:
+    name: "Elena Petrova - QA Lead"
+    email: "elena@fincrest.com"
+  onCallSupport:
+    - (666) 837-1950
+    - (666) 376-2801

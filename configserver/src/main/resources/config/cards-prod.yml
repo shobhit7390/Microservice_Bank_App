@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to fincrest cards related prod APIs"
+  contactDetails:
+    name: "Sofia Andersson - Product Owner"
+    email: "sofia@fincrest.com"
+  onCallSupport:
+    - (777) 387-0938
+    - (777) 929-3762

@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+#    active: "native"
+    active: "git"
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/shobhit7390/fincrest-config.git"
+          default-label: "main"
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+#        native:
+#          search-locations: "file:///Users/shobhityadav/config"
+#          search-locations: "classpath:/config"
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+
+encrypt:
+  key: "ebb2da96fe72a99e430c5042cec283fe"
+
+server:
+  port: 8071
