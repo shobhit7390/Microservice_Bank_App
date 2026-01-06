@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.shobhit</groupId>
-	<artifactId>configserver</artifactId>
+	<artifactId>eurekaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>configserver</name>
-	<description>Config Server for fincrest microservices</description>
+	<name>eurekaserver</name>
+	<description>Service Discovery agent for fincrest microservices</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -37,7 +37,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>
@@ -63,28 +67,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>com.google.cloud.tools</groupId>
-				<artifactId>jib-maven-plugin</artifactId>
-				<version>3.5.1</version>
-				<configuration>
-					<from>
-						<platforms>
-							<platform>
-								<architecture>arm64</architecture>
-								<os>linux</os>
-							</platform>
-							<platform>
-								<architecture>amd64</architecture>
-								<os>linux</os>
-							</platform>
-						</platforms>
-					</from>
-					<to>
-						<image>shobhit6402/${project.artifactId}:s2</image>
-					</to>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
