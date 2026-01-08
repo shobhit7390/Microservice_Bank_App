@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Image creation for eurekaserver">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/h2-to-mysql" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shobhit7390&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shobhit7390/Microservice_Bank_App.git&quot;,
+    &quot;accountId&quot;: &quot;36bf7d59-fdef-499e-9dcc-778d34f181b0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2rZpwvXU05FKGA5VwXkT8qYd2jc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Debug",
+    "Application.CardsApplication.executor": "Debug",
+    "Application.ConfigserverApplication.executor": "Debug",
+    "Application.EurekaserverApplication.executor": "Debug",
+    "Application.LoansApplication.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "feature/service-discovery",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1/docker-compose/qa"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-compose/qa" />
+      <recent name="$PROJECT_DIR$/docker-compose/prod" />
+      <recent name="$PROJECT_DIR$/docker-compose/default" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shobhit.accounts.service.client" />
+      <recent name="com.shobhit.accounts.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AccountsApplication">
+    <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="prod" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.shobhit.accounts.AccountsApplication" />
+      <module name="accounts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shobhit.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.cards.CardsApplication" />
+      <module name="cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shobhit.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shobhit.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shobhit.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shobhit.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.loans.LoansApplication" />
+      <module name="loans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoansApplication" />
+        <item itemvalue="Application.AccountsApplication" />
+        <item itemvalue="Application.EurekaserverApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="" />
+      <created>1736776693785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736776693785</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Changed jdk version in dockerfile">
+      <option name="closed" value="true" />
+      <created>1766978749955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766978749955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Image creation using google jib and buildpacks">
+      <option name="closed" value="true" />
+      <created>1766988333862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766988333862</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added docker-compose file">
+      <option name="closed" value="true" />
+      <created>1766993078879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766993078879</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added multi-architecture support for Docker image builds">
+      <option name="closed" value="true" />
+      <created>1766993123026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766993123026</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added google jib plugin for accounts">
+      <option name="closed" value="true" />
+      <created>1767072655219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767072655219</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build-info api with @value config">
+      <option name="closed" value="true" />
+      <created>1767074012942</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767074012942</updated>
+    </task>
+    <task id="LOCAL-00007" summary="java-version api with env variable">
+      <option name="closed" value="true" />
+      <created>1767075387571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767075387571</updated>
+    </task>
+    <task id="LOCAL-00008" summary="contact-info api using configuration properties">
+      <option name="closed" value="true" />
+      <created>1767076626291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767076626292</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added 3 apis for loans and cards">
+      <option name="closed" value="true" />
+      <created>1767116895033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767116895033</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added profiles in accounts">
+      <option name="closed" value="true" />
+      <created>1767118067114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767118067114</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added profiles for loans and cards">
+      <option name="closed" value="true" />
+      <created>1767118668120</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767118668120</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added config server">
+      <option name="closed" value="true" />
+      <created>1767338984299</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767338984299</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Reading properties from config server into accounts">
+      <option name="closed" value="true" />
+      <created>1767383700535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767383700535</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Reading properties from config server into loans and cards">
+      <option name="closed" value="true" />
+      <created>1767383733162</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767383733162</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Reading properties from config server into loans and cards from file system">
+      <option name="closed" value="true" />
+      <created>1767423938635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767423938635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changes for configs from  github config server">
+      <option name="closed" value="true" />
+      <created>1767431303875</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1767431303875</updated>
+    </task>
+    <task id="LOCAL-00017" summary="encryption of properties in config-server">
+      <option name="closed" value="true" />
+      <created>1767432518613</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767432518613</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refresh configs at runtime">
+      <option name="closed" value="true" />
+      <created>1767438159779</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1767438159780</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Refresh configs at runtime using cloud bus">
+      <option name="closed" value="true" />
+      <created>1767442382181</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767442382181</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Refresh configs cloud bus and monitor using webhooks">
+      <option name="closed" value="true" />
+      <created>1767450431047</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1767450431047</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added docker-compose file for default profile">
+      <option name="closed" value="true" />
+      <created>1767467980941</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1767467980941</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added docker-compose file for qa, prod profile">
+      <option name="closed" value="true" />
+      <created>1767468521860</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1767468521860</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Removed rabbitmq dependencies">
+      <option name="closed" value="true" />
+      <created>1767511580185</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1767511580185</updated>
+    </task>
+    <task id="LOCAL-00024" summary="db replaced from h2 to myql">
+      <option name="closed" value="true" />
+      <created>1767519108880</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1767519108880</updated>
+    </task>
+    <task id="LOCAL-00025" summary="docker-compose changes for mysql in default profile">
+      <option name="closed" value="true" />
+      <created>1767521669704</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1767521669704</updated>
+    </task>
+    <task id="LOCAL-00026" summary="docker-compose changes for mysql in prod, qa profile">
+      <option name="closed" value="true" />
+      <created>1767521688528</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1767521688528</updated>
+    </task>
+    <task id="LOCAL-00027" summary="removed rabbit from configserver in docker-compose">
+      <option name="closed" value="true" />
+      <created>1767521781803</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1767521781803</updated>
+    </task>
+    <task id="LOCAL-00028" summary="removed rabbit from configserver in docker-compose">
+      <option name="closed" value="true" />
+      <created>1767521831836</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1767521831836</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updated ports for different dbs">
+      <option name="closed" value="true" />
+      <created>1767523099946</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1767523099946</updated>
+    </task>
+    <task id="LOCAL-00030" summary="setup for eureka server">
+      <option name="closed" value="true" />
+      <created>1767677922200</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1767677922200</updated>
+    </task>
+    <task id="LOCAL-00031" summary="connection of ms to eurekaserver">
+      <option name="closed" value="true" />
+      <created>1767723067514</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1767723067515</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Invoking other ms to gather all CustomerDetails">
+      <option name="closed" value="true" />
+      <created>1767726555254</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1767726555254</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Image creation for eurekaserver">
+      <option name="closed" value="true" />
+      <created>1767766151078</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1767766151079</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="contact-info api using configuration properties" />
+    <MESSAGE value="Added 3 apis for loans and cards" />
+    <MESSAGE value="Added profiles in accounts" />
+    <MESSAGE value="Added profiles for loans and cards" />
+    <MESSAGE value="Added config server" />
+    <MESSAGE value="Reading properties from config server into accounts" />
+    <MESSAGE value="Reading properties from config server into loans and cards" />
+    <MESSAGE value="Reading properties from config server into loans and cards from file system" />
+    <MESSAGE value="changes for configs from  github config server" />
+    <MESSAGE value="encryption of properties in config-server" />
+    <MESSAGE value="Refresh configs at runtime" />
+    <MESSAGE value="Refresh configs at runtime using cloud bus" />
+    <MESSAGE value="Refresh configs cloud bus and monitor using webhooks" />
+    <MESSAGE value="added docker-compose file for default profile" />
+    <MESSAGE value="added docker-compose file for qa, prod profile" />
+    <MESSAGE value="Removed rabbitmq dependencies" />
+    <MESSAGE value="db replaced from h2 to myql" />
+    <MESSAGE value="docker-compose changes for mysql in default profile" />
+    <MESSAGE value="docker-compose changes for mysql in prod, qa profile" />
+    <MESSAGE value="removed rabbit from configserver in docker-compose" />
+    <MESSAGE value="updated ports for different dbs" />
+    <MESSAGE value="setup for eureka server" />
+    <MESSAGE value="connection of ms to eurekaserver" />
+    <MESSAGE value="Invoking other ms to gather all CustomerDetails" />
+    <MESSAGE value="Image creation for eurekaserver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image creation for eurekaserver" />
+  </component>
+</project>
