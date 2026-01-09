@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="load balancing check">
-      <change afterPath="$PROJECT_DIR$/gatewayserver/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/test/java/com/shobhit/gatewayserver/GatewayserverApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Image tag changed to s3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -464,12 +449,26 @@
       <option name="project" value="LOCAL" />
       <updated>1767884193952</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="gateway server">
+      <option name="closed" value="true" />
+      <created>1767934259243</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1767934259244</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Image tag changed to s3">
+      <option name="closed" value="true" />
+      <created>1767934281568</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1767934281568</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added profiles in accounts" />
-    <MESSAGE value="Added profiles for loans and cards" />
     <MESSAGE value="Added config server" />
     <MESSAGE value="Reading properties from config server into accounts" />
     <MESSAGE value="Reading properties from config server into loans and cards" />
@@ -493,6 +492,8 @@
     <MESSAGE value="Image creation for eurekaserver" />
     <MESSAGE value="docker-compose changes after feignClient" />
     <MESSAGE value="load balancing check" />
-    <option name="LAST_COMMIT_MESSAGE" value="load balancing check" />
+    <MESSAGE value="gateway server" />
+    <MESSAGE value="Image tag changed to s3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image tag changed to s3" />
   </component>
 </project>
