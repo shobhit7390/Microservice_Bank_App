@@ -52,3 +52,9 @@ info:
     name: "accounts"
     description: "Fincrest accounts application"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      shobhit:
+        accounts: DEBUG

@@ -29,3 +29,9 @@ info:
     name: "gatewayserver"
     description: "Fincrest Gateway Server application"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      shobhit:
+        gatewayserver: DEBUG

@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Custom routing for gateway">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="addResponseHeader">
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/filters/FilterUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/filters/RequestTraceFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/filters/ResponseTraceFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/ICustomersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/ICustomersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/client/CardsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/client/CardsFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/client/LoansFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/client/LoansFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/impl/CustomersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/impl/CustomersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/eazybytes/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/eazybytes/cards/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/eazybytes/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/eazybytes/loans/controller/LoansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,9 +164,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GatewayserverApplication" />
         <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoansApplication" />
+        <item itemvalue="Application.GatewayserverApplication" />
         <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
       </list>
@@ -472,11 +485,18 @@
       <option name="project" value="LOCAL" />
       <updated>1767936099704</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="addResponseHeader">
+      <option name="closed" value="true" />
+      <created>1767936856603</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1767936856603</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reading properties from config server into accounts" />
     <MESSAGE value="Reading properties from config server into loans and cards" />
     <MESSAGE value="Reading properties from config server into loans and cards from file system" />
     <MESSAGE value="changes for configs from  github config server" />
@@ -501,6 +521,7 @@
     <MESSAGE value="gateway server" />
     <MESSAGE value="Image tag changed to s3" />
     <MESSAGE value="Custom routing for gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom routing for gateway" />
+    <MESSAGE value="addResponseHeader" />
+    <option name="LAST_COMMIT_MESSAGE" value="addResponseHeader" />
   </component>
 </project>
