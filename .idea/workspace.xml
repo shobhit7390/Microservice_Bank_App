@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Added health related configs for ms">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="gatewayserver added in docker-compose">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/client/CardsFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/client/LoansFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/controller/FallbackController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/service-discovery" />
+        <entry key="$PROJECT_DIR$" value="feature/edge-server" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +67,7 @@
     "Application.LoansApplication.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "feature/edge-server",
+    "git-widget-placeholder": "feature/resiliency",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1"
   }
@@ -153,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardsApplication" />
-        <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.GatewayserverApplication" />
         <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
+        <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoansApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -498,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1768041818403</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="gatewayserver added in docker-compose">
+      <option name="closed" value="true" />
+      <created>1768043645757</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1768043645757</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes for configs from  github config server" />
     <MESSAGE value="encryption of properties in config-server" />
     <MESSAGE value="Refresh configs at runtime" />
     <MESSAGE value="Refresh configs at runtime using cloud bus" />
@@ -527,6 +539,7 @@
     <MESSAGE value="addResponseHeader" />
     <MESSAGE value="Tracing and Logging" />
     <MESSAGE value="Added health related configs for ms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added health related configs for ms" />
+    <MESSAGE value="gatewayserver added in docker-compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="gatewayserver added in docker-compose" />
   </component>
 </project>
