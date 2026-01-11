@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Image creation for eurekaserver">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="rate limiter in accounts ms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/h2-to-mysql" />
+        <entry key="$PROJECT_DIR$" value="feature/edge-server" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,20 +64,21 @@
     "Application.CardsApplication.executor": "Debug",
     "Application.ConfigserverApplication.executor": "Debug",
     "Application.EurekaserverApplication.executor": "Debug",
+    "Application.GatewayserverApplication.executor": "Debug",
     "Application.LoansApplication.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "feature/service-discovery",
+    "git-widget-placeholder": "feature/resiliency",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1/docker-compose/qa"
+    "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker-compose/qa" />
       <recent name="$PROJECT_DIR$/docker-compose/prod" />
       <recent name="$PROJECT_DIR$/docker-compose/default" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -82,7 +86,7 @@
       <recent name="com.shobhit.accounts.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountsApplication">
+  <component name="RunManager" selected="Application.GatewayserverApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -114,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shobhit.configserver.ConfigserverApplication" />
-      <module name="configserver" />
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shobhit.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shobhit.configserver.*" />
+          <option name="PATTERN" value="com.shobhit.eurekaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shobhit.eurekaserver.EurekaserverApplication" />
-      <module name="eurekaserver" />
+    <configuration name="GatewayserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shobhit.gatewayserver.GatewayserverApplication" />
+      <module name="gatewayserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shobhit.eurekaserver.*" />
+          <option name="PATTERN" value="com.shobhit.gatewayserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GatewayserverApplication" />
+        <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoansApplication" />
-        <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
-        <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -436,26 +440,138 @@
       <option name="project" value="LOCAL" />
       <updated>1767766151079</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="docker-compose changes after feignClient">
+      <option name="closed" value="true" />
+      <created>1767810323844</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1767810323844</updated>
+    </task>
+    <task id="LOCAL-00035" summary="load balancing check">
+      <option name="closed" value="true" />
+      <created>1767884193952</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1767884193952</updated>
+    </task>
+    <task id="LOCAL-00036" summary="gateway server">
+      <option name="closed" value="true" />
+      <created>1767934259243</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1767934259244</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Image tag changed to s3">
+      <option name="closed" value="true" />
+      <created>1767934281568</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1767934281568</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Custom routing for gateway">
+      <option name="closed" value="true" />
+      <created>1767936099704</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1767936099704</updated>
+    </task>
+    <task id="LOCAL-00039" summary="addResponseHeader">
+      <option name="closed" value="true" />
+      <created>1767936856603</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1767936856603</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Tracing and Logging">
+      <option name="closed" value="true" />
+      <created>1767990850507</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1767990850507</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added health related configs for ms">
+      <option name="closed" value="true" />
+      <created>1768041818403</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1768041818403</updated>
+    </task>
+    <task id="LOCAL-00042" summary="gatewayserver added in docker-compose">
+      <option name="closed" value="true" />
+      <created>1768043645757</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1768043645757</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Circuit breaker in gateway">
+      <option name="closed" value="true" />
+      <created>1768071699296</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1768071699296</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Circuit breaker changes for feignclient">
+      <option name="closed" value="true" />
+      <created>1768073043148</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1768073043148</updated>
+    </task>
+    <task id="LOCAL-00045" summary="global timeout config added in gateway">
+      <option name="closed" value="true" />
+      <created>1768110709508</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1768110709508</updated>
+    </task>
+    <task id="LOCAL-00046" summary="retry pattern in gateway">
+      <option name="closed" value="true" />
+      <created>1768110948308</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1768110948308</updated>
+    </task>
+    <task id="LOCAL-00047" summary="retry pattern in accounts ms">
+      <option name="closed" value="true" />
+      <created>1768115802564</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1768115802564</updated>
+    </task>
+    <task id="LOCAL-00048" summary="rate limiter in gatewayserver">
+      <option name="closed" value="true" />
+      <created>1768139294384</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1768139294384</updated>
+    </task>
+    <task id="LOCAL-00049" summary="rate limiter in accounts ms">
+      <option name="closed" value="true" />
+      <created>1768139340419</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1768139340419</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contact-info api using configuration properties" />
-    <MESSAGE value="Added 3 apis for loans and cards" />
-    <MESSAGE value="Added profiles in accounts" />
-    <MESSAGE value="Added profiles for loans and cards" />
-    <MESSAGE value="Added config server" />
-    <MESSAGE value="Reading properties from config server into accounts" />
-    <MESSAGE value="Reading properties from config server into loans and cards" />
-    <MESSAGE value="Reading properties from config server into loans and cards from file system" />
-    <MESSAGE value="changes for configs from  github config server" />
-    <MESSAGE value="encryption of properties in config-server" />
-    <MESSAGE value="Refresh configs at runtime" />
-    <MESSAGE value="Refresh configs at runtime using cloud bus" />
-    <MESSAGE value="Refresh configs cloud bus and monitor using webhooks" />
-    <MESSAGE value="added docker-compose file for default profile" />
-    <MESSAGE value="added docker-compose file for qa, prod profile" />
-    <MESSAGE value="Removed rabbitmq dependencies" />
     <MESSAGE value="db replaced from h2 to myql" />
     <MESSAGE value="docker-compose changes for mysql in default profile" />
     <MESSAGE value="docker-compose changes for mysql in prod, qa profile" />
@@ -465,6 +581,22 @@
     <MESSAGE value="connection of ms to eurekaserver" />
     <MESSAGE value="Invoking other ms to gather all CustomerDetails" />
     <MESSAGE value="Image creation for eurekaserver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image creation for eurekaserver" />
+    <MESSAGE value="docker-compose changes after feignClient" />
+    <MESSAGE value="load balancing check" />
+    <MESSAGE value="gateway server" />
+    <MESSAGE value="Image tag changed to s3" />
+    <MESSAGE value="Custom routing for gateway" />
+    <MESSAGE value="addResponseHeader" />
+    <MESSAGE value="Tracing and Logging" />
+    <MESSAGE value="Added health related configs for ms" />
+    <MESSAGE value="gatewayserver added in docker-compose" />
+    <MESSAGE value="Circuit breaker in gateway" />
+    <MESSAGE value="Circuit breaker changes for feignclient" />
+    <MESSAGE value="global timeout config added in gateway" />
+    <MESSAGE value="retry pattern in gateway" />
+    <MESSAGE value="retry pattern in accounts ms" />
+    <MESSAGE value="rate limiter in gatewayserver" />
+    <MESSAGE value="rate limiter in accounts ms" />
+    <option name="LAST_COMMIT_MESSAGE" value="rate limiter in accounts ms" />
   </component>
 </project>
