@@ -140,7 +140,7 @@
 						</platforms>
 					</from>
 					<to>
-						<image>shobhit6402/${project.artifactId}:s3</image>
+						<image>shobhit6402/${project.artifactId}:s4</image>
 					</to>
 				</configuration>
 			</plugin>
