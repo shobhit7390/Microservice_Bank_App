@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="retry pattern in gateway">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="retry pattern in accounts ms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/controller/AccountsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/GatewayserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/filters/ResponseTraceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/filters/ResponseTraceFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,9 +156,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GatewayserverApplication" />
-        <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
       </list>
     </recent_temporary>
@@ -539,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1768110948308</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="retry pattern in accounts ms">
+      <option name="closed" value="true" />
+      <created>1768115802564</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1768115802564</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added docker-compose file for default profile" />
     <MESSAGE value="added docker-compose file for qa, prod profile" />
     <MESSAGE value="Removed rabbitmq dependencies" />
     <MESSAGE value="db replaced from h2 to myql" />
@@ -568,6 +576,7 @@
     <MESSAGE value="Circuit breaker changes for feignclient" />
     <MESSAGE value="global timeout config added in gateway" />
     <MESSAGE value="retry pattern in gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="retry pattern in gateway" />
+    <MESSAGE value="retry pattern in accounts ms" />
+    <option name="LAST_COMMIT_MESSAGE" value="retry pattern in accounts ms" />
   </component>
 </project>
