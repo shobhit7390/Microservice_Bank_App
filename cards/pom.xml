@@ -111,7 +111,7 @@
 						</platforms>
 					</from>
 					<to>
-						<image>shobhit6402/${project.artifactId}:s4</image>
+						<image>shobhit6402/${project.artifactId}:s5</image>
 					</to>
 				</configuration>
 			</plugin>
