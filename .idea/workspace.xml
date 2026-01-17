@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Prometheus added">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="New image tags">
+      <change afterPath="$PROJECT_DIR$/docker-compose/observability/tempo/tempo.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/eazybytes/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/eazybytes/cards/controller/CardsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/eazybytes/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/eazybytes/loans/controller/LoansController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +84,6 @@
   </component>
   <component name="RunManager" selected="Application.GatewayserverApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <envs>
-        <env name="SPRING_PROFILES_ACTIVE" value="prod" />
-      </envs>
       <option name="MAIN_CLASS_NAME" value="com.shobhit.accounts.AccountsApplication" />
       <module name="accounts" />
       <extension name="coverage">
@@ -183,22 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added multi-architecture support for Docker image builds">
-      <option name="closed" value="true" />
-      <created>1766993123026</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1766993123026</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added google jib plugin for accounts">
-      <option name="closed" value="true" />
-      <created>1767072655219</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1767072655219</updated>
     </task>
     <task id="LOCAL-00006" summary="build-info api with @value config">
       <option name="closed" value="true" />
@@ -576,12 +543,26 @@
       <option name="project" value="LOCAL" />
       <updated>1768247320527</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="openTelemetry changes">
+      <option name="closed" value="true" />
+      <created>1768593140966</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1768593140967</updated>
+    </task>
+    <task id="LOCAL-00054" summary="New image tags">
+      <option name="closed" value="true" />
+      <created>1768632327977</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1768632327977</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed rabbit from configserver in docker-compose" />
-    <MESSAGE value="updated ports for different dbs" />
     <MESSAGE value="setup for eureka server" />
     <MESSAGE value="connection of ms to eurekaserver" />
     <MESSAGE value="Invoking other ms to gather all CustomerDetails" />
@@ -605,6 +586,8 @@
     <MESSAGE value="Changed image tags" />
     <MESSAGE value="Implementation of logging" />
     <MESSAGE value="Prometheus added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prometheus added" />
+    <MESSAGE value="openTelemetry changes" />
+    <MESSAGE value="New image tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="New image tags" />
   </component>
 </project>
