@@ -97,7 +97,7 @@
 						</platforms>
 					</from>
 					<to>
-						<image>shobhit6402/${project.artifactId}:s5</image>
+						<image>shobhit6402/${project.artifactId}:s6</image>
 					</to>
 				</configuration>
 			</plugin>
