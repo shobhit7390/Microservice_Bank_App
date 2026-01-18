@@ -13,7 +13,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "shobhit6402/configserver:s4"
+    image: "shobhit6402/configserver:s5"
     container_name: configserver-ms
     ports:
       - "8071:8071"
@@ -28,7 +28,7 @@ services:
       service: microservice-base-config
 
   eurekaserver:
-    image: "shobhit6402/eurekaserver:s4"
+    image: "shobhit6402/eurekaserver:s5"
     container_name: eurekaserver-ms
     ports:
       - "8070:8070"
@@ -45,7 +45,7 @@ services:
       SPRING_APPLICATION_NAME: "eurekaserver"
 
   accounts:
-    image: "shobhit6402/accounts:s4"
+    image: "shobhit6402/accounts:s5"
     container_name: accounts-ms
     ports:
       - "8080:8080"
@@ -62,7 +62,7 @@ services:
       service: microservice-eureka-config
 
   loans:
-    image: "shobhit6402/loans:s4"
+    image: "shobhit6402/loans:s5"
     container_name: loans-ms
     ports:
       - "8090:8090"
@@ -79,7 +79,7 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "shobhit6402/cards:s4"
+    image: "shobhit6402/cards:s5"
     container_name: cards-ms
     ports:
       - "9000:9000"
@@ -96,7 +96,7 @@ services:
       service: microservice-eureka-config
 
   gatewayserver:
-    image: "shobhit6402/gatewayserver:s4"
+    image: "shobhit6402/gatewayserver:s5"
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
