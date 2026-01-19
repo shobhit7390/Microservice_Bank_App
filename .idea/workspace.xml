@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Tempo setup">
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Securing gatewayserver as resource server">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/KeycloakRoleConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00007" summary="java-version api with env variable">
-      <option name="closed" value="true" />
-      <created>1767075387571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1767075387571</updated>
     </task>
     <task id="LOCAL-00008" summary="contact-info api using configuration properties">
       <option name="closed" value="true" />
@@ -558,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1768637129248</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Securing gatewayserver as resource server">
+      <option name="closed" value="true" />
+      <created>1768846830943</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1768846830944</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="connection of ms to eurekaserver" />
     <MESSAGE value="Invoking other ms to gather all CustomerDetails" />
     <MESSAGE value="Image creation for eurekaserver" />
     <MESSAGE value="docker-compose changes after feignClient" />
@@ -587,6 +586,7 @@
     <MESSAGE value="openTelemetry changes" />
     <MESSAGE value="New image tags" />
     <MESSAGE value="Tempo setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tempo setup" />
+    <MESSAGE value="Securing gatewayserver as resource server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Securing gatewayserver as resource server" />
   </component>
 </project>
