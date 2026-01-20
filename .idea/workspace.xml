@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Implemented authorization code">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="added keycloak in docker-compose">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,22 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added 3 apis for loans and cards">
-      <option name="closed" value="true" />
-      <created>1767116895033</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1767116895033</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added profiles in accounts">
-      <option name="closed" value="true" />
-      <created>1767118067114</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1767118067114</updated>
     </task>
     <task id="LOCAL-00011" summary="Added profiles for loans and cards">
       <option name="closed" value="true" />
@@ -562,11 +541,26 @@
       <option name="project" value="LOCAL" />
       <updated>1768849298282</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Changed image tags">
+      <option name="closed" value="true" />
+      <created>1768890400283</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1768890400283</updated>
+    </task>
+    <task id="LOCAL-00059" summary="added keycloak in docker-compose">
+      <option name="closed" value="true" />
+      <created>1768890431805</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1768890431806</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Image creation for eurekaserver" />
     <MESSAGE value="docker-compose changes after feignClient" />
     <MESSAGE value="load balancing check" />
     <MESSAGE value="gateway server" />
@@ -583,7 +577,6 @@
     <MESSAGE value="retry pattern in accounts ms" />
     <MESSAGE value="rate limiter in gatewayserver" />
     <MESSAGE value="rate limiter in accounts ms" />
-    <MESSAGE value="Changed image tags" />
     <MESSAGE value="Implementation of logging" />
     <MESSAGE value="Prometheus added" />
     <MESSAGE value="openTelemetry changes" />
@@ -591,6 +584,8 @@
     <MESSAGE value="Tempo setup" />
     <MESSAGE value="Securing gatewayserver as resource server" />
     <MESSAGE value="Implemented authorization code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented authorization code" />
+    <MESSAGE value="Changed image tags" />
+    <MESSAGE value="added keycloak in docker-compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="added keycloak in docker-compose" />
   </component>
 </project>
