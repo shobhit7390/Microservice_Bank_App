@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="New image tags">
-      <change afterPath="$PROJECT_DIR$/docker-compose/observability/tempo/tempo.yml" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="added keycloak in docker-compose">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/resiliency" />
+        <entry key="$PROJECT_DIR$" value="feature/observability_monitoring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountsApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CardsApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EurekaserverApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GatewayserverApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LoansApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/observability__monitoring&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shobhityadav/Desktop/Microservices/ms_1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Debug",
+    "Application.CardsApplication.executor": "Debug",
+    "Application.ConfigserverApplication.executor": "Debug",
+    "Application.EurekaserverApplication.executor": "Debug",
+    "Application.GatewayserverApplication.executor": "Debug",
+    "Application.LoansApplication.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "feature/security",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -166,46 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00006" summary="build-info api with @value config">
-      <option name="closed" value="true" />
-      <created>1767074012942</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1767074012942</updated>
-    </task>
-    <task id="LOCAL-00007" summary="java-version api with env variable">
-      <option name="closed" value="true" />
-      <created>1767075387571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1767075387571</updated>
-    </task>
-    <task id="LOCAL-00008" summary="contact-info api using configuration properties">
-      <option name="closed" value="true" />
-      <created>1767076626291</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1767076626292</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added 3 apis for loans and cards">
-      <option name="closed" value="true" />
-      <created>1767116895033</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1767116895033</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added profiles in accounts">
-      <option name="closed" value="true" />
-      <created>1767118067114</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1767118067114</updated>
     </task>
     <task id="LOCAL-00011" summary="Added profiles for loans and cards">
       <option name="closed" value="true" />
@@ -559,14 +517,50 @@
       <option name="project" value="LOCAL" />
       <updated>1768632327977</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Tempo setup">
+      <option name="closed" value="true" />
+      <created>1768637129246</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1768637129248</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Securing gatewayserver as resource server">
+      <option name="closed" value="true" />
+      <created>1768846830943</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1768846830944</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Implemented authorization code">
+      <option name="closed" value="true" />
+      <created>1768849298281</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1768849298282</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Changed image tags">
+      <option name="closed" value="true" />
+      <created>1768890400283</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1768890400283</updated>
+    </task>
+    <task id="LOCAL-00059" summary="added keycloak in docker-compose">
+      <option name="closed" value="true" />
+      <created>1768890431805</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1768890431806</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="setup for eureka server" />
-    <MESSAGE value="connection of ms to eurekaserver" />
-    <MESSAGE value="Invoking other ms to gather all CustomerDetails" />
-    <MESSAGE value="Image creation for eurekaserver" />
     <MESSAGE value="docker-compose changes after feignClient" />
     <MESSAGE value="load balancing check" />
     <MESSAGE value="gateway server" />
@@ -583,11 +577,15 @@
     <MESSAGE value="retry pattern in accounts ms" />
     <MESSAGE value="rate limiter in gatewayserver" />
     <MESSAGE value="rate limiter in accounts ms" />
-    <MESSAGE value="Changed image tags" />
     <MESSAGE value="Implementation of logging" />
     <MESSAGE value="Prometheus added" />
     <MESSAGE value="openTelemetry changes" />
     <MESSAGE value="New image tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="New image tags" />
+    <MESSAGE value="Tempo setup" />
+    <MESSAGE value="Securing gatewayserver as resource server" />
+    <MESSAGE value="Implemented authorization code" />
+    <MESSAGE value="Changed image tags" />
+    <MESSAGE value="added keycloak in docker-compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="added keycloak in docker-compose" />
   </component>
 </project>
