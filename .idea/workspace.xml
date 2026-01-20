@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Securing gatewayserver as resource server">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/KeycloakRoleConverter.java" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Implemented authorization code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/shobhit/gatewayserver/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00008" summary="contact-info api using configuration properties">
-      <option name="closed" value="true" />
-      <created>1767076626291</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1767076626292</updated>
     </task>
     <task id="LOCAL-00009" summary="Added 3 apis for loans and cards">
       <option name="closed" value="true" />
@@ -558,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1768846830944</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Implemented authorization code">
+      <option name="closed" value="true" />
+      <created>1768849298281</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1768849298282</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Invoking other ms to gather all CustomerDetails" />
     <MESSAGE value="Image creation for eurekaserver" />
     <MESSAGE value="docker-compose changes after feignClient" />
     <MESSAGE value="load balancing check" />
@@ -587,6 +590,7 @@
     <MESSAGE value="New image tags" />
     <MESSAGE value="Tempo setup" />
     <MESSAGE value="Securing gatewayserver as resource server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Securing gatewayserver as resource server" />
+    <MESSAGE value="Implemented authorization code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented authorization code" />
   </component>
 </project>
