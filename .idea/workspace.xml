@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="docker-compose for default and qa profile">
-      <change afterPath="$PROJECT_DIR$/loans/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/MessageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/dto/AccountsMsgDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message/src/test/java/com/shobhit/message/MessageApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="messaging setup and added dto">
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/functions/MessageFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/dto/AccountsMsgDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/dto/AccountsMsgDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -183,14 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added config server">
-      <option name="closed" value="true" />
-      <created>1767338984299</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1767338984299</updated>
     </task>
     <task id="LOCAL-00013" summary="Reading properties from config server into accounts">
       <option name="closed" value="true" />
@@ -576,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1768890477118</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="messaging setup and added dto">
+      <option name="closed" value="true" />
+      <created>1769192634774</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1769192634774</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="load balancing check" />
     <MESSAGE value="gateway server" />
     <MESSAGE value="Image tag changed to s3" />
     <MESSAGE value="Custom routing for gateway" />
@@ -605,6 +592,7 @@
     <MESSAGE value="Changed image tags" />
     <MESSAGE value="added keycloak in docker-compose" />
     <MESSAGE value="docker-compose for default and qa profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker-compose for default and qa profile" />
+    <MESSAGE value="messaging setup and added dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="messaging setup and added dto" />
   </component>
 </project>
