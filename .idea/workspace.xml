@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="added keycloak in docker-compose">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="docker-compose for default and qa profile">
+      <change afterPath="$PROJECT_DIR$/loans/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/MessageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/com/shobhit/message/dto/AccountsMsgDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/test/java/com/shobhit/message/MessageApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +29,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/observability_monitoring" />
+        <entry key="$PROJECT_DIR$" value="feature/security" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +55,13 @@
     &quot;accountId&quot;: &quot;36bf7d59-fdef-499e-9dcc-778d34f181b0&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -62,18 +81,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "feature/security",
+    "git-widget-placeholder": "feature/messaging",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker-compose/qa" />
       <recent name="$PROJECT_DIR$/docker-compose/prod" />
       <recent name="$PROJECT_DIR$/docker-compose/default" />
-      <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shobhit.accounts.service.client" />
@@ -164,14 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added profiles for loans and cards">
-      <option name="closed" value="true" />
-      <created>1767118668120</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1767118668120</updated>
     </task>
     <task id="LOCAL-00012" summary="Added config server">
       <option name="closed" value="true" />
@@ -557,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1768890431806</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="docker-compose for default and qa profile">
+      <option name="closed" value="true" />
+      <created>1768890477118</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1768890477118</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docker-compose changes after feignClient" />
     <MESSAGE value="load balancing check" />
     <MESSAGE value="gateway server" />
     <MESSAGE value="Image tag changed to s3" />
@@ -586,6 +604,7 @@
     <MESSAGE value="Implemented authorization code" />
     <MESSAGE value="Changed image tags" />
     <MESSAGE value="added keycloak in docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="added keycloak in docker-compose" />
+    <MESSAGE value="docker-compose for default and qa profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose for default and qa profile" />
   </component>
 </project>
