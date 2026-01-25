@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Added email|sms api as cloud Function">
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/dto/AccountsMsgDto.java" afterDir="false" />
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="Async communication be accounts and message service">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/functions/AccountsFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/entity/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/entity/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/IAccountsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/IAccountsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/impl/AccountsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/shobhit/accounts/service/impl/AccountsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/message/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -179,14 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Reading properties from config server into loans and cards from file system">
-      <option name="closed" value="true" />
-      <created>1767423938635</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1767423938635</updated>
     </task>
     <task id="LOCAL-00016" summary="changes for configs from  github config server">
       <option name="closed" value="true" />
@@ -572,11 +566,18 @@
       <option name="project" value="LOCAL" />
       <updated>1769199139329</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Async communication be accounts and message service">
+      <option name="closed" value="true" />
+      <created>1769274891234</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1769274891234</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Custom routing for gateway" />
     <MESSAGE value="addResponseHeader" />
     <MESSAGE value="Tracing and Logging" />
     <MESSAGE value="Added health related configs for ms" />
@@ -601,6 +602,7 @@
     <MESSAGE value="messaging setup and added dto" />
     <MESSAGE value="Implemented MessageFunctions" />
     <MESSAGE value="Added email|sms api as cloud Function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added email|sms api as cloud Function" />
+    <MESSAGE value="Async communication be accounts and message service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Async communication be accounts and message service" />
   </component>
 </project>
