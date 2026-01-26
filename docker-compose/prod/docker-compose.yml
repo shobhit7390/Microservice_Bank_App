@@ -1,5 +1,21 @@
 services:
 
+  rabbit:
+    image: rabbitmq:4.0-management
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: rabbitmq-diagnostics check_port_connectivity
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
+
   keycloak:
     image: quay.io/keycloak/keycloak:26.4.7
     container_name: keycloak
@@ -230,7 +246,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "shobhit6402/configserver:s7"
+    image: "shobhit6402/configserver:s8"
     container_name: configserver-ms
     ports:
       - "8071:8071"
@@ -247,7 +263,7 @@ services:
       OTEL_SERVICE_NAME: "configserver"
 
   eurekaserver:
-    image: "shobhit6402/eurekaserver:s7"
+    image: "shobhit6402/eurekaserver:s8"
     container_name: eurekaserver-ms
     ports:
       - "8070:8070"
@@ -265,7 +281,7 @@ services:
       OTEL_SERVICE_NAME: "eurekaserver"
 
   accounts:
-    image: "shobhit6402/accounts:s7"
+    image: "shobhit6402/accounts:s8"
     container_name: accounts-ms
     healthcheck:
       test: "curl --fail --silent localhost:8080/actuator/health/readiness | grep UP || exit 1"
@@ -273,15 +289,19 @@ services:
       timeout: 5s
       retries: 20
       start_period: 10s
+    depends_on:
+      rabbit:
+        condition: service_healthy
     environment:
       SPRING_APPLICATION_NAME: "accounts"
       OTEL_SERVICE_NAME: "accounts"
+      SPRING_RABBITMQ_HOST: "rabbit"
     extends:
       file: common-config.yml
       service: microservice-eureka-config
 
   loans:
-    image: "shobhit6402/loans:s7"
+    image: "shobhit6402/loans:s8"
     container_name: loans-ms
     healthcheck:
       test: "curl --fail --silent localhost:8090/actuator/health/readiness | grep UP || exit 1"
@@ -297,7 +317,7 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "shobhit6402/cards:s7"
+    image: "shobhit6402/cards:s8"
     container_name: cards-ms
     healthcheck:
       test: "curl --fail --silent localhost:9000/actuator/health/readiness | grep UP || exit 1"
@@ -312,8 +332,20 @@ services:
       file: common-config.yml
       service: microservice-eureka-config
 
+  message:
+    image: "shobhit6402/message:s8"
+    container_name: message-ms
+    depends_on:
+      rabbit:
+        condition: service_healthy
+    environment:
+      SPRING_RABBITMQ_HOST: "rabbit"
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
+
   gatewayserver:
-    image: "shobhit6402/gatewayserver:s7"
+    image: "shobhit6402/gatewayserver:s8"
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
