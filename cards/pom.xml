@@ -122,7 +122,7 @@
 						</platforms>
 					</from>
 					<to>
-						<image>shobhit6402/${project.artifactId}:s8</image>
+						<image>shobhit6402/${project.artifactId}:s9</image>
 					</to>
 				</configuration>
 			</plugin>

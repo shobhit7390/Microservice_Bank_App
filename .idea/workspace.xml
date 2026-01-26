@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="New docker images changes">
+    <list default="true" id="8b4606d7-4780-4eca-9755-acf325b7c916" name="Changes" comment="docker-compose changes for qa, default profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/security" />
+        <entry key="$PROJECT_DIR$" value="feature/kafka-changes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,26 +66,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountsApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CardsApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EurekaserverApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GatewayserverApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LoansApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MessageApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/messaging&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shobhityadav/Desktop/Microservices/ms_1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Debug",
+    "Application.CardsApplication.executor": "Debug",
+    "Application.ConfigserverApplication.executor": "Debug",
+    "Application.EurekaserverApplication.executor": "Debug",
+    "Application.GatewayserverApplication.executor": "Debug",
+    "Application.LoansApplication.executor": "Debug",
+    "Application.MessageApplication.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "feature/kafka-changes",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/shobhityadav/Desktop/Microservices/ms_1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -175,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736776693785</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Refresh configs at runtime">
-      <option name="closed" value="true" />
-      <created>1767438159779</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1767438159780</updated>
     </task>
     <task id="LOCAL-00019" summary="Refresh configs at runtime using cloud bus">
       <option name="closed" value="true" />
@@ -568,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1769359864572</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="docker-compose changes for qa, default profile">
+      <option name="closed" value="true" />
+      <created>1769359934462</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1769359934462</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added health related configs for ms" />
     <MESSAGE value="gatewayserver added in docker-compose" />
     <MESSAGE value="Circuit breaker in gateway" />
     <MESSAGE value="Circuit breaker changes for feignclient" />
@@ -597,6 +605,7 @@
     <MESSAGE value="Async communication be accounts and message service" />
     <MESSAGE value="Async communication from message to accounts" />
     <MESSAGE value="New docker images changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="New docker images changes" />
+    <MESSAGE value="docker-compose changes for qa, default profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose changes for qa, default profile" />
   </component>
 </project>
