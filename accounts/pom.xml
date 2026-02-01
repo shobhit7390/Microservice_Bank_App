@@ -106,7 +106,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+			<artifactId>spring-cloud-stream-binder-kafka</artifactId>
 		</dependency>
 
 		<dependency>
@@ -160,7 +160,7 @@
 						</platforms>
 					</from>
 					<to>
-						<image>shobhit6402/${project.artifactId}:s8</image>
+						<image>shobhit6402/${project.artifactId}:s9</image>
 					</to>
 				</configuration>
 			</plugin>
